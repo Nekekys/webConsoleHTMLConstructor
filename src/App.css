@@ -1,0 +1,94 @@
+.App{
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+    color: green;
+    overflow: auto;
+}
+
+.input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    color: green;
+    flex-grow: 3;
+
+}
+.conInput{
+    display: flex;
+    margin-bottom: 150px;
+}
+.conInput>p{
+    font-size: 24px;
+}
+.conInput::before {
+    content: ">";
+    padding-left: 8px;
+    font-size: 24px;
+    padding-right: 4px;
+
+}
+.item{
+    font-size: 24px;
+}
+.item::before{
+    content: ">";
+    padding-left: 8px;
+    font-size: 24px;
+    padding-right: 5px;
+}
+.result{
+    position: absolute;
+    width: 100%;
+    min-width: 100vh;
+}
+.close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 24px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/****************************/
+.color-green{
+    color: green;
+}
+.color-red{
+    color: red;
+}
+.color-blue{
+    color: blue;
+}
+.color-white{
+    color: white;
+}
+.bc-green{
+    background-color: green;
+}
+.bc-red{
+    background-color: red;
+}
+.bc-blue{
+    background-color: blue;
+}
+.p-1{
+   padding: 8px;
+}
+.p-2{
+    padding: 16px;
+}
+.p-3{
+    padding: 24px;
+}
+.m-1{
+    margin: 8px;
+}
+.m-2{
+    margin: 16px;
+}
+.m-3{
+    margin: 24px;
+}
